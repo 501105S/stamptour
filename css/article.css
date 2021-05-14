@@ -1,0 +1,317 @@
+/* 아티클 첫번째 페이지 */
+.onePage > div {
+    display: flex;
+    margin: 0 auto;
+    width: 1400px;
+    height: 900px;
+  }
+  .onePage > div .box1 {
+    width: 60%;
+    margin-top: 260px;
+  }
+  .onePage > div .box1 .stamping {
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+  }
+  .onePage > div .box1 .stamping h2 {
+    color: #3a9de6;
+  }
+  .onePage > div .box1 .stamping p {
+    padding-top: 50px;
+    letter-spacing: 1px;
+  }
+  .onePage > div .box1 .iconBox {
+    padding-top: 95px;
+    display: flex;
+  }
+  .onePage > div .box1 .iconBox > div:first-child {
+    margin-left: 0;
+  }
+  .onePage > div .box1 .iconBox > div {
+    width: 120px;
+    text-align: center;
+    margin-left: 100px;
+  }
+  .onePage > div .box1 .iconBox > div img {
+    height: 60px;
+  }
+  .onePage > div .box1 .iconBox > div p {
+    padding-top: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    letter-spacing: -1.5px;
+  }
+  .onePage > div .box1 .iconBox > div h3 {
+    padding-top: 35px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #3a9de6;
+  }
+  .onePage > div .box2 .phone {
+    position: relative;
+    margin-top: 135px;
+    width: 679px;
+    height: 765px;
+    background: url('../imgs/phone.png') no-repeat;
+  }
+  .onePage > div .box2 .phone > div {
+    position: absolute;
+    top: 135px;
+    left: 85px;
+    width: 480px;
+    height: 150px;
+    background: url('../imgs/phonbg.png') no-repeat;
+    border-radius: 20px;
+  }
+  .onePage > div .box2 .phone > div .textBox {
+    padding-top: 10px;
+    color: #f8f8f8f8;
+  }
+  .onePage > div .box2 .phone > div .textBox > div:last-child p {
+    font-weight: 800;
+  }
+  .onePage > div .box2 .phone > div .textBox > div {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  .onePage > div .box2 .phone > div .textBox > div .name {
+    max-width: 150px;
+    overflow: hidden;
+  }
+  .onePage > div .box2 .phone > div .textBox > div p {
+    height: 20px;
+    padding-left: 10px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    overflow: hidden;
+  }
+  .onePage > div .box2 .phone > div .textBox > div img {
+    position: absolute;
+    left:400px;
+    top: 110px;
+    width: 25px;
+  }
+  .onePage > div .box2 .phone > div .textBox > p {
+    padding-left: 40px;
+    padding-top: 35px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+/*아티클 두번쨰 페이지*/
+  .toPage {
+    width: 100%;
+    height: 1080px;
+    background: url("../imgs/topage.png") no-repeat;
+    background-size: cover;
+  }
+  .toPage > div {
+    width: 1400px;
+    height: 100vh;
+    margin: 0 auto;
+  }
+  .toPage > div .textBox {
+    width: 660px;
+    color: #f8f8f8;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  .toPage > div .textBox h2 {
+    padding-top: 355px;
+    font-size: 100px;
+    font-weight: 800;
+  }
+  .toPage > div .textBox p {
+    height: 60px;
+    padding-top: 60px;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: -1px;
+  }
+  .toPage > div .textBox a {
+    width: 280px;
+    height: 90px;
+    margin-top: 85px;
+    font-size: 30px;
+    color: #f8f8f8;
+    text-align: center;
+    line-height: 85px;
+    border: 1px solid #f8f8f8;
+    border-radius: 40px;
+    transition: all 0.3s ease-in;
+  }
+  .toPage > div .textBox a:hover {
+    color: #3a9de6;
+    background: #f8f8f8;
+  }
+  
+  /*아티클 세번쨰 페이지*/
+  .threePage {
+    margin-top: -20px;
+    width: 100%;
+    height: 1080px;
+    background: #eeeeee;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  .threePage > div {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .threePage > div > div {
+    width: 50%;
+  }
+  .threePage > div > div img {
+    padding-top: 100px;
+  }
+  .threePage > div > div h2 {
+    padding-top: 310px;
+    font-size: 100px;
+    font-weight: 800;
+  }
+  .threePage > div > div div {
+    padding-top: 70px;
+    padding-left: 80px;
+    letter-spacing: -1px;
+  }
+  .threePage > div > div div p {
+    height: 60px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+  }
+  .threePage > div > div a {
+    width: 280px;
+    height: 90px;
+    margin-top: 30px;
+    margin-left: 75px;
+    font-size: 30px;
+    color: #111111;
+    text-align: center;
+    line-height: 85px;
+    border: 1px solid #111111;
+    border-radius: 40px;
+    transition: all 0.3s ease-in;
+  }
+  .threePage > div > div a:hover {
+    color: #f8f8f8;
+    background: #111111;
+  }
+  
+  /*아티클 네번쨰 페이지*/
+
+  .fourPage {
+    width: 100%;
+    height: 1080px;
+    background: #c6c3c3;
+  }
+  .fourPage > div {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .fourPage > div > div:last-child {
+    width: 45%;
+  }
+  .fourPage > div > div:last-child img {
+    padding-top: 100px;
+  }
+  .fourPage > div div:first-child {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 435px;
+  }
+  .fourPage > div div:first-child h2 {
+    font-size: 100px;
+    font-weight: 800;
+  }
+  .fourPage > div div:first-child div {
+    padding-top: 80px;
+    padding-left: 80px;
+    letter-spacing: -1px;
+  }
+  .fourPage > div div:first-child div p {
+    height: 60px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+  }
+  .fourPage > div div:first-child a {
+    width: 280px;
+    height: 90px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #111111;
+    text-align: center;
+    line-height: 85px;
+    border: 1px solid #111111;
+    border-radius: 40px;
+    transition: all 0.3s ease-in;
+  }
+  .fourPage > div div:first-child a:hover {
+    color: #f8f8f8;
+    background: #111111;
+  }
+  
+  /*아티클 다섯번쨰 페이지 */
+  
+  .fivePage {
+    width: 100%;
+    height: 1080px;
+    background: #f8f8f8;
+    margin-top: -20px;
+    width: 100%;
+    height: 1080px;
+    background: #eeeeee;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  .fivePage > div {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .fivePage > div > div {
+    width: 50%;
+  }
+  .fivePage > div > div img {
+    zoom: 0.8;
+    padding-top: 100px;
+  }
+  .fivePage > div > div h2 {
+    padding-top: 310px;
+    font-size: 100px;
+    font-weight: 800;
+  }
+  .fivePage > div > div div {
+    padding-top: 70px;
+    padding-left: 80px;
+    letter-spacing: -1px;
+  }
+  .fivePage > div > div div p {
+    height: 60px;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+  }
+  .fivePage > div > div a {
+    width: 280px;
+    height: 90px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #111111;
+    text-align: center;
+    line-height: 85px;
+    border: 1px solid #111111;
+    border-radius: 40px;
+    transition: all 0.3s ease-in;
+  }
+  .fivePage > div > div a:hover {
+    color: #f8f8f8;
+    background: #111111;
+  }

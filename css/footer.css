@@ -1,0 +1,73 @@
+.footerWrap {
+    width: 100%;
+    height: 275px;
+    background: #848484;
+  }
+  .footerWrap footer {
+    display: flex;
+    width: 1600px;
+    height: 170px;
+    margin: 0 auto;
+    padding-top: 60px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #f8f8f8;
+  }
+  .footerWrap footer > div.footerBox1 {
+    width: 50%;
+    height: 100%;
+    padding-left: 110px;
+  }
+  .footerWrap footer > div.footerBox1 h3 {
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .footerWrap footer > div.footerBox1 > div {
+    padding-top: 30px;
+  }
+  .footerWrap footer > div.footerBox1 > div > p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  .footerWrap footer > div.footerBox1 > p {
+    padding-top: 35px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .footerWrap footer .bar {
+    width: 1px;
+    height: 168px;
+    background: #ffffff;
+  }
+  .footerWrap footer div.footerBox2 > div .info {
+    display: flex;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:first-child {
+    padding-left: 235px;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:first-child h4 {
+    padding-top: 60px;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:first-child p {
+    width: 120px;
+    padding-top: 30px;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:first-child a {
+    padding-right: 10px;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:last-child {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:last-child div:last-child {
+    padding-left: 90px;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:last-child div:last-child h4 {
+    padding-top: 30px;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:last-child div:last-child p {
+    padding-top: 30px;
+  }
+  .footerWrap footer div.footerBox2 > div .info div:last-child .iconBox {
+    display: flex;
+  }

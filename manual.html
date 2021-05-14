@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>스탬프투어</title>
+
+</head>
+
+
+
+<body>
+    <!-- 공통 헤더인데 여행후기에서 헤더 클레스 네임이 headerWrap2로 변경 되야함 -->
+    <div class='headerWrap'>
+        <header>
+            <h1>
+                <a href='./index.html'>
+                    <h2>STAMP</h2>
+                    <p>TOUR</p>
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href='#'>스탬프투어</a>
+                    </li>
+                    <li>
+                        <a href='#'>스탬프현황</a>
+                    </li>
+                    <li>
+                        <a href='./review.html'>여행후기</a>
+                    </li>
+                    <li>
+                        <a href='#'>이벤트(선물)</a>
+                    </li>
+                    <li>
+                        <a href='#'>상점</a>
+                    </li>
+                    <li>
+                        <a href='#'>NEWS</a>
+                    </li>
+                </ul>
+                <div>
+                    <button>LOGIN</button>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="stamp-container">
+        <div class="stamp-menu">
+            <ul class="stamp-menu_list">
+                <li class="stamp-menu_item">
+                    <a href="#">MANUAL</a>
+                </li>
+                <li class="stamp-menu_item">
+                    <a href="#">COMMUNICATION</a>
+                </li>
+                <li class="stamp-menu_item">
+                    <a href="#">LEVEL</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="stamp-manual">
+            <ul class="stamp-manual_list">
+                <li class="stamp-manual_item">
+                    <img src="./imgs/01_logIn.png" alt="manual_01">
+                    <h4>1. 회원가입 및 로그인</h4>
+                    <p>편한 방식으로 로그인을 진행합니다.</p>
+                </li>
+                <li class="stamp-manual_item">
+                    <img src="./imgs/02_home.png" alt="manual_02">
+                    <h4>2. 홈화면</h4>
+                    <p>탐색하기>더보기를 클릭하여<br>스탬프투어 지역을 살펴봅니다.</p>
+                </li>
+                <li class="stamp-manual_item">
+                    <img src="./imgs/03_search.png" alt="manual_03">
+                    <h4>3. 탐색하기</h4>
+                    <p>거리순으로 투어가능한 지역이 표시되며,<br>
+                        스탬프투어 희망 지역을 선택합니다. </p>
+                </li>
+                <li class="stamp-manual_item">
+                    <img src="./imgs/04_stamp_zone.png" alt="manual_04">
+                    <h4>4. 스탬프존</h4>
+                    <p>선택한 지역의 스탬프존을 <br>
+                        확인 후 이동합니다.</p>
+                </li>
+                <li class="stamp-manual_item">
+                    <img src="./imgs/05_getStamp.png" alt="manual_05">
+                    <h4>5. 스탬프획득</h4>
+                    <p>해당 장소로 이동하면, 스탬프 애니메이션이 나타나고
+                        <br>스탬프를 획득할 수 있습니다.</p>
+                </li>
+                <li class="stamp-manual_item">
+                    <img src="./imgs/06_gift.png" alt="manual_06">
+                    <h4>6. 선물신청</h4>
+                    <p>각 지역의 이벤트 조건에 맞는<br>
+                        스탬프 개수를 모은 후, 선물을 신청합니다.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="stamp-communication">
+            <h3>여행 일상 공유 및 소통하기</h3>
+
+            <ul class="stamp-communication_list">
+                <li class="stamp-communication_item">
+                    <img src="./imgs/commuication_review.png" alt="여행 후기">
+                    <h4>여행 후기</h4>
+                    <p>후기 작성을 통해 다른 유저들과의<br>
+                        여행일상을 공유합니다.</p>
+                </li>
+
+                <li class="stamp-communication_item">
+                    <img src="./imgs/commuication_reply.png" alt="좋아요 및 댓글">
+                    <h4>좋아요 및 댓글</h4>
+                    <p>좋아요 및 댓글기능을 통해<br> 
+                        다른 유저들과 소통합니다.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="stamp-level">
+            <h3>포인트 및 등급 안내</h3>
+
+            <div class="stamp-level_core">
+                <p>1. 포인트별 배점</p>
+
+                <ul class="stamp-level_core_list">
+                    <li>구분</li>
+                    <li>
+                        <img src="./imgs/level_stamp.png" alt="스탬프">
+                    </li>
+                    <li>
+                        <img src="./imgs/level_review.png" alt="여행리뷰">
+                    </li>
+                    <li>
+                        <img src="./imgs/level_good.png" alt="좋아요">
+                    </li>
+                </ul>
+
+                <ul class="stamp-level_core_list">
+                    <li>배점</li>
+                    <li>
+                        <p>- 첫번째 스탬프 10점</p>
+                        <p>- 두번째 스탬프부터 0.005점 차감해서 부여</p>
+                        <p>- 빨간발자국(10, 20, 30…번째 스탬프) 20점</p>
+                        <p>※ 부여되는 최하 배점 : 5점<br>
+                            (1,001번째 스탬프 이후는 모두 5점으로 부여)</p>
+                    </li>
+                    <li>
+                        <p>- 첫번째 후기 작성 10점</p>
+                        <p>- 두번째 후기 작성부터 0.5점 차감해서 부여</p>
+                        <p>※ 부여되는 최하 배점 : 5점<br>
+                            (11번째 후기 작성 이후는 모두 5점으로 부여)</p>
+                    </li>
+                    <li>5점</li>
+                </ul>
+            </div>
+
+            <div class="stamp-level_example">
+                <p>예시 )</p>
+
+                <ul class="stamp-level_example_list">
+                    <li>스탬프</li>
+                    <li>
+                        <ul>
+                            <li>순번</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>...</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                        </ul>
+                        <ul>
+                            <li>배점</li>
+                            <li>10</li>
+                            <li>9.995</li>
+                            <li>9.990</li>
+                            <li>9.985</li>
+                            <li>...</li>
+                            <li>9.960</li>
+                            <li>20</li>
+                            <li>9.950</li>
+                            <li>9.945</li>
+                            <li>9.940</li>
+                            <li>9.935</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="stamp-level_example_list">
+                    <li>여행후기</li>
+                    <li>
+                        <ul>
+                            <li>순번</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>...</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                        </ul>
+                        <ul>
+                            <li>배점</li>
+                            <li>10</li>
+                            <li>9.5</li>
+                            <li>9</li>
+                            <li>8.5</li>
+                            <li>...</li>
+                            <li>6</li>
+                            <li>5.5</li>
+                            <li>5</li>
+                            <li>5</li>
+                            <li>5</li>
+                            <li>5</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="stamp-level_userLevel">
+                <p>2. 유저 등급</p>
+
+                <ul class="stamp-level_userLevel_list">
+                    <li>등급</li>
+                    <li>
+                        <div>
+                            <p>木</p>
+                            <p>나무 목</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>林</p>
+                            <p>수풀 림</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>森</p>
+                            <p>빽빽할 삼</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>水</p>
+                            <p>물 수</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>沝</p>
+                            <p>두 갈래 강 추</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>淼</p>
+                            <p>물 아득할 묘</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>㵘</p>
+                            <p>큰물 만</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="stamp-level_userLevel_list">
+                    <li>점수</li>
+                    <li>
+                        1에서<br>
+                        1000까지
+                    </li>
+                    <li>
+                        1001에서<br>
+                        2000까지
+                    </li>
+                    <li>
+                        2001에서<br>
+                        3000까지
+                    </li>
+                    <li>
+                        3001에서<br>
+                        4000까지
+                    </li>
+                    <li>
+                        4001에서<br>
+                        5000까지
+                    </li>
+                    <li>
+                        5001에서<br>
+                        6000까지
+                    </li>
+                    <li>
+                        6001이상
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 공통 푸터 -->
+    <div class="footerWrap">
+        <footer>
+            <div class="footerBox1">
+                <h3>
+                    댓츠잇 (주)
+                </h3>
+                <div>
+                    <p>대표 김범수 | 사업자등록번호 384-81-01361</p>
+                    <p>주소 [06621] 서울시 강남대로 373 WeWork 13층 117호 </p>
+                </div>
+                <p>&copy; THATZIT Co. Ltd. All rights reserved</p>
+            </div>
+
+            <span class='bar' />
+
+            <div class="footerBox2">
+                <div>
+                    <div class="info">
+                        <div>
+                            <h3>문의하기</h3>
+                            <h4>Contact</h4>
+                            <p>010-7638-0901</p>
+                        </div>
+                        <div>
+                            <div class='iconBox'>
+                                <a href='http://instagram.com/travel__editor' target='balck'>
+                                    <img src='./imgs/insta.png' alt='인스타 이미지' />
+                                </a>
+                                <a href='https://www.facebook.com/thatzit1012/' target='balck'>
+                                    <img src='./imgs/facebook.png' alt='페이스북 이미지' />
+                                </a>
+                            </div>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>thatzit1012@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="review.js"></script>
+</body>
+
+</html>

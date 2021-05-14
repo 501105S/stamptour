@@ -1,0 +1,133 @@
+.headerWrap, .headerWrap2 {
+    height: 120px;
+    border-bottom: solid 1px #cfcfcf;
+    box-shadow: 0 1px 5px #cfcfcf;
+    z-index: 99;
+  }
+  .headerWrap header, .headerWrap2 header {
+    display: flex;
+    margin: 0 auto;
+    width: 1600px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .headerWrap header h1, .headerWrap2 header h1 {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 85px;
+  }
+  .headerWrap header h1 a:hover, .headerWrap2 header h1 a:hover {
+    color: #3a9de6;
+  }
+  .headerWrap header h1 a, .headerWrap2 header h1 a {
+    font-size: 40px;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  .headerWrap header h1 a h2, .headerWrap2 header h1 a h2 {
+    font-weight: 800;
+    letter-spacing: -1px;
+  }
+  .headerWrap header h1 a p, .headerWrap2 header h1 a p {
+    font-weight: 300;
+    letter-spacing: -4px;
+  }
+  .headerWrap header nav, .headerWrap2 header nav {
+    display: flex;
+    margin-left: 205px;
+    margin-top: 65px;
+  }
+  .headerWrap header nav ul, .headerWrap2 header nav ul {
+    display: flex;
+  }
+  .headerWrap header nav ul li:first-child, .headerWrap2 header nav ul li:first-child {
+    margin-left: 0;
+  }
+  .headerWrap header nav ul li, .headerWrap2 header nav ul li {
+    margin-left: 25px;
+  }
+  .headerWrap header nav ul li a:hover {
+    font-weight: 800;
+    color: #3a9de6;
+  }
+  .headerWrap header nav ul li a, .headerWrap2 header nav ul li a {
+    width: 120px;
+    height: 35px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: -0.5px;
+    transition: all 0.2s;
+  }
+  .headerWrap header nav > div, .headerWrap2 header nav > div {
+    height: 50px;
+    margin-left: 225px;
+  }
+  .headerWrap header nav > div button{
+    width: 100px;
+    height: 35px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #3a9de6;
+    letter-spacing: -1px;
+    background: none;
+    outline: none;
+    border: solid 1px #3a9de6;
+    border-radius: 22px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  .headerWrap header nav > div button:hover{
+    color: #f8f8f8;
+    background: #3a9de6;
+  }
+  
+  .headerWrap2 {
+    height: 120px;
+    background: #3a9de6;
+    border-bottom: solid 0.5px #f1f1f1;
+    box-shadow: 0px 2px #3a8ac4;
+  }
+
+  .headerWrap2 h1 h2 {
+    color: #f8f8f8;
+    transition: all 0.3s ease-in;
+  }
+  .headerWrap2 h1 p {
+    color: #f8f8f8;
+    transition: all 0.3s ease-in;
+  }
+  .headerWrap2 h1:hover h2 {
+    color: #f8f8f8;
+  }
+  .headerWrap2 h1:hover p {
+    color: #f8f8f8;
+  }
+  .headerWrap2 nav ul li a {
+    color: #f1f1f1;
+  }
+  .headerWrap2 nav ul li a:hover {
+    color: #f8f8f8;
+    font-weight: 800;
+  }
+  .headerWrap2 nav > div button {
+    width: 100px;
+    height: 35px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #f8f8f8;
+    letter-spacing: -1px;
+    background: none;
+    outline: none;
+    border: solid 1px #f8f8f8;
+    border-radius: 22px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+  }
+  .headerWrap2 nav div button:hover {
+    color: #3a9de6;
+    background: #f1f1f1;
+  }

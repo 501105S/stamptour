@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/review.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <title>스탬프투어</title>
+
+</head>
+
+
+
+<body>
+    <!-- 공통 헤더인데 여행후기에서 헤더 클레스 네임이 headerWrap2로 변경 되야함 -->
+    <div class='headerWrap2'>
+        <header>
+            <h1>
+                <a href='./index.html'>
+                    <h2>STAMP</h2>
+                    <p>TOUR</p>
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href='#'>스탬프투어</a>
+                    </li>
+                    <li>
+                        <a href='#'>스탬프현황</a>
+                    </li>
+                    <li>
+                        <a href='./review.html'>여행후기</a>
+                    </li>
+                    <li>
+                        <a href='#'>이벤트(선물)</a>
+                    </li>
+                    <li>
+                        <a href='#'>상점</a>
+                    </li>
+                    <li>
+                        <a href='#'>NEWS</a>
+                    </li>
+                </ul>
+                <div>
+                    <button>LOGIN</button>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class='views'>
+        <div>
+            <div>
+                <h3>스탬프투어,</h3>
+                <div>
+                    <p>대한민국 구석구석 스탬프 </p><span>여행장소</span>
+
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="areaWrap">
+                <button onclick="leftbtn()"></button>
+                <div>
+                    <ul id='arer' style='margin-left: 0;'>
+                        <li>
+                            <a href='#'> 강원도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>강릉시</button></li>
+                                    <li><button>속초시</button></li>
+                                    <li><button>양구군</button></li>
+                                    <li><button>홍천군</button></li>
+                                    <li><button>여주시</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 경기도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>하남시</button></li>
+                                    <li><button>화성시</button></li>
+                                    <li><button>여주시</button></li>
+                                    <li><button>포천시</button></li>
+                                    <li><button>이천시</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 서울 </a>
+                            <div>
+                                <ul>
+                                    <li><button>둘레길</button></li>
+                                    <li><button>송파구</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 부산 </a>
+                            <div>
+                                <ul>
+                                    <li><button>금정구</button></li>
+                                    <li><button>남구</button></li>
+                                    <li><button>진구</button></li>
+                                    <li><button>서구</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 인천 </a>
+                            <div>
+                                <ul>
+                                    <li><button>연수구</button></li>
+                                    <li><button>옹진군</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 대구 </a>
+                            <div>
+                                <ul>
+                                    <li><button>동구</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 대전 </a>
+                            <div>
+                                <ul>
+
+                                    <li><button>대덕구</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 경상남도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>산청군</button></li>
+                                    <li><button>밀양시</button></li>
+                                    <li><button>함안군</button></li>
+                                    <li><button>창원시 </button></li>
+                                    <li><button>사천시</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 경상북도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>성주군</button></li>
+                                    <li><button>청도군</button></li>
+                                    <li><button>영천시</button></li>
+                                    <li><button>경주시</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 전라남도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>영암군</button></li>
+                                    <li><button>진도군</button></li>
+                                    <li><button>담양군</button></li>
+                                    <li><button>목포시</button></li>
+                                    <li><button>영광군</button></li>
+                                    <li><button>신안군</button></li>
+                                    <li><button>보성군</button></li>
+                                    <li><button>함평군</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 전라북도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>장수군</button></li>
+                                    <li><button>고창군</button></li>
+                                    <li><button>김제시</button></li>
+                                    <li><button>남원시</button></li>
+                                    <li><button>천리길</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 충청남도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>공주시</button></li>
+                                    <li><button>서산시</button></li>
+                                    <li><button>보령시</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 충정북도 </a>
+                            <div>
+                                <ul>
+                                    <li><button>청주시</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 전국 </a>
+                            <div>
+                                <ul>
+                                    <li><button>전국</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href='#'> 해외 </a>
+                            <div>
+                                <ul>
+                                    <li><button>홍콩</button></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <button onclick="rightbtn()"></button>
+            </div>
+            <div class="view">
+                <div class="selectBox">
+                    <p>Total Stamping (10,050)</p>
+                    <select>
+                        <option value='인기순'>인기순</option>
+                        <option value='이름순'>이름순</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class='stamp'>
+        <div>
+            <div class="searchBox1">
+                <div>
+                    <label>
+                        <input type="text" />
+                        <div>
+                            <img src="./imgs/search2.png" alt="검색 아이콘">
+                        </div>
+                    </label>
+
+                    <ul>
+                        <li>
+                            <p>강릉역</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>382</span>
+                        </li>
+                        <li>
+                            <p>워롸거리(월화교)</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>165</span>
+                        </li>
+                        <li>
+                            <p>선교장</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>146</span>
+                        </li>
+                        <li>
+                            <p>주문진수산시장</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>146</span>
+                        </li>
+                        <li>
+                            <p>경포대</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>124</span>
+                        </li>
+                        <li>
+                            <p>소돌아들바위공원</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>78</span>
+                        </li>
+                        <li>
+                            <p>매월당 김시습 기념관</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>70</span>
+                        </li>
+                        <li>
+                            <p>연곡해변 솔향기 캠핑장</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>65</span>
+                        </li>
+                        <li>
+                            <p>강릉역</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>382</span>
+                        </li>
+                        <li>
+                            <p>매월당 김시습 기념관</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>70</span>
+                        </li>
+                        <li>
+                            <p>연곡해변 솔향기 캠핑장</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>65</span>
+                        </li>
+                        <li>
+                            <p>강릉역</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>382</span>
+                        </li>
+                        <li>
+                            <p>매월당 김시습 기념관</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>70</span>
+                        </li>
+                        <li>
+                            <p>연곡해변 솔향기 캠핑장</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>65</span>
+                        </li>
+                        <li>
+                            <p>강릉역</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>382</span>
+                        </li>
+                        <li>
+                            <p>매월당 김시습 기념관</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>70</span>
+                        </li>
+                        <li>
+                            <p>연곡해변 솔향기 캠핑장</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>65</span>
+                        </li>
+                        <li>
+                            <p>강릉역</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>382</span>
+                        </li>
+
+                        <li>
+                            <p>강릉역</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>382</span>
+                        </li>
+                        <li>
+                            <p>강릉역</p>
+                            <img src="./imgs/stamp.png" alt="스템프 아이콘">
+                            <span>382</span>
+                        </li>
+                    </ul>
+                </div>
+                <hr />
+                <div>
+                    <img src="./imgs/jumonjin.png" alt="지역 사진" />
+                </div>
+            </div>
+
+            <div class="textBox">
+                <h2>소개</h2>
+                <p>
+                    예로부터 주문진항은 강원도 전역의 싱싱한 해산물이 모이는 곳으로 주문진수산시장, 재래어시장, 어민수산시장, 건어물골목, 회센터 등 다양한 어시장
+                    이 공존하고 있다. 강릉과 양양을 잇는 동해고속도로가 뚫린 후에는 강릉을 여행하는 관광객들이 들르는 필수코스가 되었다. 생선구이 골목을 벗어나면
+                    반대편에 자연스럽게 항구 주변에 형성된 재래어시장을 만나게 된다. 한쪽에는 선어, 한쪽에는 수족관의 활어를 판매하는 가게가 줄지어 있어 주말에는
+                    좁은 시장골목이 수산물을 구경하고 흥정하는 사람들로 늘 북적댄다. 주로 동해안에서 나는 제철 수산물을 취급하지만 러시아산 대게나 노르웨이산 고
+                    등어 등 수입산 수산물도 판매된다. 주문진항과 어시장 주변에 회와 찜, 매운탕을 하는 식당들일 많이 있다. 도루묵찌개, 생선구이, 곰치국, 장치찜, 복어
+                    요리 등이 있어 취향대로 골라먹는 재미가 있다.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- 공통 푸터 -->
+    <div class="footerWrap">
+        <footer>
+            <div class="footerBox1">
+                <h3>
+                    댓츠잇 (주)
+                </h3>
+                <div>
+                    <p>대표 김범수 | 사업자등록번호 384-81-01361</p>
+                    <p>주소 [06621] 서울시 강남대로 373 WeWork 13층 117호 </p>
+                </div>
+                <p>&copy; THATZIT Co. Ltd. All rights reserved</p>
+            </div>
+
+            <span class='bar' />
+
+            <div class="footerBox2">
+                <div>
+                    <div class="info">
+                        <div>
+                            <h3>문의하기</h3>
+                            <h4>Contact</h4>
+                            <p>010-7638-0901</p>
+                        </div>
+                        <div>
+                            <div class='iconBox'>
+                                <a href='http://instagram.com/travel__editor' target='balck'>
+                                    <img src='./imgs/insta.png' alt='인스타 이미지' />
+                                </a>
+                                <a href='https://www.facebook.com/thatzit1012/' target='balck'>
+                                    <img src='./imgs/facebook.png' alt='페이스북 이미지' />
+                                </a>
+                            </div>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>thatzit1012@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="review.js"></script>
+</body>
+
+</html>

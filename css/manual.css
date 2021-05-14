@@ -1,0 +1,292 @@
+img{
+    display: block;
+}
+
+.stamp-container{
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #414141;
+}
+
+/* 첫번째 섹션 */
+.stamp-container > .stamp-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.stamp-menu > .stamp-menu_list{
+    display: flex;
+    justify-content: center;
+}
+
+.stamp-menu > .stamp-menu_list > .stamp-menu_item{
+    margin-right: 100px;
+}
+
+.stamp-meun_item:last-child{
+    margin-right: 0;
+}
+
+.stamp-menu > .stamp-menu_list > .stamp-menu_item > a{
+    line-height: 60px;
+    border-bottom: 2px solid #000;
+    letter-spacing: -0.35px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: #414141;
+}
+
+/* 두번째 섹션 */
+.stamp-container > .stamp-manual{
+    margin-bottom: 100px;
+}
+
+.stamp-manual > .stamp-manual_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.stamp-manual_list > .stamp-manual_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3);
+    margin-bottom: 100px;
+}
+
+.stamp-manual_list > .stamp-manual_item:nth-child(4),
+.stamp-manual_list > .stamp-manual_item:nth-child(5),
+.stamp-manual_list > .stamp-manual_item:nth-child(6){
+    margin-bottom: 0;
+}
+
+.stamp-manual_list > .stamp-manual_item > h4,
+.stamp-communication_list > .stamp-communication_item > h4{
+    width: 100%;
+    padding: 30px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.stamp-manual_list > .stamp-manual_item > p,
+.stamp-communication_list > .stamp-communication_item > p{
+    line-height: 1.38;
+    letter-spacing: -0.2px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.stamp-container > .stamp-communication{
+    margin-bottom: 100px;
+}
+
+.stamp-communication > h3,
+.stamp-level h3{
+    padding: 90px 0;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.stamp-communication > .stamp-communication_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stamp-communication_list > .stamp-communication_item:first-child{
+    margin-right: 150px;
+}
+
+
+/* 마지막 섹션 */
+.stamp-container > .stamp-level{
+    margin-bottom: 100px;
+}
+
+.stamp-level > .stamp-level_core{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.stamp-level > .stamp-level_core > p,
+.stamp-level > .stamp-level_example > p,
+.stamp-level > .stamp-level_userLevel > p{
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.stamp-level > .stamp-level_core > .stamp-level_core_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+
+.stamp-level > .stamp-level_core > .stamp-level_core_list > li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 140px;
+    margin-right: 10px;
+    background-color: #edeeef;
+    font-size: 18px;
+}
+
+.stamp-level > .stamp-level_core > .stamp-level_core_list:last-child > li{
+    height: 220px;
+}
+
+.stamp-level > .stamp-level_core > .stamp-level_core_list > li:first-child{
+    width: 90px;
+    color: #fff;
+    background-color: #414141;
+}
+
+.stamp-level > .stamp-level_core > .stamp-level_core_list:last-child li:nth-child(2),
+.stamp-level > .stamp-level_core > .stamp-level_core_list:last-child li:nth-child(3){
+    justify-content: start;
+}
+
+.stamp-level > .stamp-level_core > .stamp-level_core_list:last-child li > p{
+    margin-left: 20px;
+}
+
+.stamp-level > .stamp-level_example,
+.stamp-level > .stamp-level_userLevel{
+    margin-top: 70px;
+}
+
+.stamp-level > .stamp-level_example > .stamp-level_example_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+.stamp-level > .stamp-level_example > .stamp-level_example_list > li:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #414141;
+    color: #fff;
+    width: 90px;
+    height: 170px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+.stamp-level > .stamp-level_example > .stamp-level_example_list > li > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.stamp-level > .stamp-level_example > .stamp-level_example_list > li > ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: #edeeef;
+    font-size: 21px;
+}
+
+.stamp-level > .stamp-level_example > .stamp-level_example_list > li > ul > li:first-child{
+    background-color: #414141;
+    color: #fff;
+}
+
+.stamp-level > .stamp-level_example > .stamp-level_example_list > li > ul > li:last-child{
+    margin-right: 0;
+}
+
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 140px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #edeeef;
+    font-size: 18px;
+    text-align: center;
+}
+
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:first-child{
+    width: 90px;
+    background-color: #414141;
+    color: #fff;
+}
+
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:last-child{
+    margin-right: 0;
+}
+
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li > div{
+    width: 110px;
+    height: 110px;
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:nth-child(2) > div{
+    background-color: #bbb292;
+}
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:nth-child(3) > div{
+    background-color: #aeb0b6;
+}
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:nth-child(4) > div{
+    background-color: #e1c268;
+}
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:nth-child(5) > div{
+    background-color: #879f7b;
+}
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:nth-child(6) > div{
+    background-color: #43c4e9;
+}
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:nth-child(7) > div{
+    background-color: #ff4593;
+}
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li:nth-child(8) > div{
+    background-color: #ca8785;
+}
+
+.stamp-level > .stamp-level_userLevel > .stamp-level_userLevel_list > li > div > p{
+    color: #fefefe;
+}

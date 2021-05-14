@@ -1,0 +1,434 @@
+.views {
+    margin-top: 2px;
+  }
+  .views > div {
+    background: #3a9de6;
+    height: 330px;
+  }
+  .views > div > div {
+    padding-top: 60px;
+    padding-left: 25px;
+    margin: 0 auto;
+    width: 1440px;
+  }
+  .views > div > div h3 {
+    height: 60px;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #f8f8f8;
+  }
+  .views > div > div > div {
+    display: flex;
+  }
+  .views > div > div > div p {
+    font-size: 35px;
+    font-weight: 300;
+    font-family: "Noto Sans KR", sans-serif;
+    color: #f8f8f8;
+  }
+  .views > div > div > div span {
+    margin-left: 10px;
+    font-family: '210산골짜기';
+    font-size: 50px;
+    color: #fff78e;
+    font-weight: 500;
+    line-height: 45px;
+    text-decoration:1px underline;
+  }
+  .views > div > div > div > div {
+    display: flex;
+    width: 600px;
+    margin-left: 350px;
+  }
+  .views > div > div > div > div input[type=text] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 0.95em;
+    padding-left: 20px;
+    color: #3a9de6;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 2px 2px 3px #414141;
+  }
+  .views > div > div > div > div input[type=text]::placeholder {
+    color: #3a9de6;
+    font-size: 0.85em;
+    text-align: center;
+    margin-left: 50px;
+    opacity: 0.8;
+  }
+  .views > div > div > div > div > div {
+    width: 50px;
+    height: 100%;
+    margin-left: -70px;
+    cursor: pointer;
+  }
+  .views > div > div > div > div > div > div {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background: url("../imgs/search.png") no-repeat;
+  }
+ 
+
+/* 지역메뉴 부분*/
+
+section {
+  margin: 0 auto;
+  margin-top: -110px;
+  width: 1440px;
+
+}
+section > div.areaWrap {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+section > div.areaWrap > button{
+  position: absolute;
+  top: 60px;
+  width: 35px;
+  height: 35px;
+  background: none;
+  cursor: pointer;
+  z-index: 99;
+}
+section > div.areaWrap > button:first-child{
+  left: 0;
+  background: url('../imgs/leftBtn.png')no-repeat;
+  background-size: contain;
+}
+section > div.areaWrap > button:last-child{
+  right: 0;
+  background: url('../imgs/rightBtn.png')no-repeat;
+  background-size: contain;
+}
+section > div.areaWrap > div {
+  margin: 0 auto;
+  width: 1375px;
+  height: 300px;
+  transition: all 0.3s ease-in;
+  
+}
+
+section > div.areaWrap > div > ul{
+  margin: 0 auto;
+  display: flex;
+  transition: all 0.3s ease-in;
+}
+section > div.areaWrap > div > ul > li{
+  width: 220px;
+  height: 160px;
+  margin-left: 15px;
+}
+/*///// 지역 배경 /////*/
+section > div.areaWrap > div > ul > li:nth-child(1){
+  margin-left: 0px;
+  background: url('../imgs/강원도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(2){
+  background: url('../imgs/경기도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(3){
+  background: url('../imgs/서울.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(4){
+  background: url('../imgs/부산.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(5){
+  background: url('../imgs/인천.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(6){
+  background: url('../imgs/대구.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(7){
+  background: url('../imgs/대전.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(8){
+  background: url('../imgs/경상남도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(9){
+  background: url('../imgs/경상북도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(10){
+  background: url('../imgs/전라남도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(11){
+  background: url('../imgs/전라북도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(12){
+  background: url('../imgs/충청남도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(13){
+  background: url('../imgs/충청북도.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(14){
+  background: url('../imgs/전국.png')no-repeat;
+}
+section > div.areaWrap > div > ul > li:nth-child(15){
+  background: url('../imgs/해외.png')no-repeat;
+}
+
+section > div.areaWrap > div > ul > li > a{
+  width: 217px;
+  height: 160px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #f8f8f8;
+  font-size: 23px;
+  text-align: center;
+  line-height: 160px;
+
+}
+
+section > div.areaWrap > div > ul > li:hover div{
+  display: block;
+}
+
+section > div.areaWrap > div > ul > li > div{
+  width: 100%;
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 30px;
+  
+}
+
+section > div.areaWrap > div > ul > li > div > ul{
+  display: flex;
+  padding-top: 35px;
+  height: 185px;
+  z-index: 98;
+}
+
+section > div.areaWrap > div > ul > li > div > ul > li{
+  margin-left: 15px;
+}
+
+section > div.areaWrap > div > ul > li > div > ul > li:first-child{
+  margin-left: 0;
+
+}
+section > div.areaWrap > div > ul > li > div > ul > li > button{
+  width: 140px;
+  height: 55px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  color: #3a9de6;
+  border: solid 1px #3a9de6 ;
+  border-radius: 30px;
+  transition: all 0.3s ease-in;
+  background: none;
+}
+section > div.areaWrap > div > ul > li > div > ul > li > button:hover{
+  cursor: pointer;
+  color: #f8f8f8;
+  background: #3a9de6;
+}
+/*///// 이미지 박스 ///// */
+ section > div.view {
+   width: 1400px;
+   margin: 0 auto;
+   font-size: 18px;
+ 
+/*///// 셀렉트 박스 부분 ///// */
+
+ }
+ section > div.view > div.selectBox{
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: solid 1px #c6c3c3;
+ }
+ section > div.view > div.selectBox p{
+  width: 100%;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-top: 10px;
+}  
+section > div.view > div.selectBox select{
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 20px;
+  border-color: #c6c3c3;
+}
+
+/*///// 이미지 영역 ///// */
+
+div.revieImgBox > div.imgBox{
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  gap: 50px 10px;
+  width: 1400px;
+  padding: 70px 0;
+  margin: 0 auto;
+ 
+}
+div.revieImgBox > div.imgBox > div {
+  position: relative;
+  width: 450px;
+  height: 445px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 3px 5px #c6c3c3;
+  border: solid 1px #c6c3c3;
+}
+div.revieImgBox > div.imgBox > div > img{
+  width: 450px;
+  height: 350px;
+}
+div.revieImgBox > div.imgBox > div > div.arerName{
+  position: absolute;
+  top: 250px;
+  left: 30px;
+}
+div.revieImgBox > div.imgBox > div > div.arerName > p{
+  margin-top: 5px;
+  padding-left: 10px;
+  height: 35px;
+  color: #f8f8f8;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.6);
+  line-height: 35px;
+}
+div.revieImgBox > div.imgBox > div > div.arerName > p:last-child{
+  min-width: 130px;
+}
+
+div.revieImgBox > div.imgBox > div > div:last-child > h3{
+  font-weight: 300;
+  padding-top: 16px;
+  padding-left: 35px;
+}
+div.revieImgBox > div.imgBox > div > div:last-child > div{
+  padding-left: 35px;
+  padding-top: 12px;
+  display: flex;
+}
+div.revieImgBox > div.imgBox > div > div:last-child > div > img{
+  border-radius: 50%;
+}
+div.revieImgBox > div.imgBox > div > div:last-child > div > p {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  color:#acacac
+}
+div.revieImgBox > div.imgBox > div > div:last-child > div > span{
+  padding-top: 12px;
+  padding-left: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+  color:#acacac
+}
+
+
+/*///// 스탬프 현황 /////*/
+div.stamp{
+  margin: 0 auto;
+  width: 1400px;
+  min-height: 1000px;
+}
+div.stamp > div{
+  margin-top:65px;
+}
+div.stamp > div > .searchBox1 {
+  display: flex;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+div.stamp > div > .searchBox1 > hr{
+  margin-top: 0;
+  width: 1px;
+  height: 535px;
+  background-color: #c6c3c3;
+}
+div.stamp > div > .searchBox1 > div{
+  width: 50%;
+}
+
+div.stamp > div > .searchBox1 > div:last-child > img {
+  float: right;
+ 
+}
+div.stamp > div > .searchBox1 > div > label{
+  display: flex;
+}
+div.stamp > div > .searchBox1 > div > label > div{
+  margin-left: -65px;
+  padding-top: 12px;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+}
+div.stamp > div > .searchBox1 > div > label > input[type="text"]{
+  padding-left: 20px;
+  width: 615px;
+  height: 65px;
+  outline: none;
+  border-radius: 10px;
+  border: solid 1px #c6c3c3; 
+}
+
+div.stamp > div > .searchBox1 > div > ul{
+  padding: 20px 30px;
+  height: 430px;
+  width: 615px;
+  margin-top: 40px;
+  border: solid 1px #c6c3c3;
+  border-radius: 10px;
+  overflow-y:scroll ;
+}
+div.stamp > div > .searchBox1 > div > ul::-webkit-scrollbar{
+  width: 30px;
+  background: #f3f3f3;
+  border-radius: 20px;
+}
+div.stamp > div > .searchBox1 > div > ul::-webkit-scrollbar-thumb {
+  background-color: #c6c6c6;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+
+div.stamp > div > .searchBox1 > div > ul > li{
+  display: flex;
+  height: 40px;
+  font-size: 20px;
+  color: #414141;
+  line-height: 40px;
+}
+div.stamp > div > .searchBox1 > div > ul > li > p{
+  width: 80%;
+}
+div.stamp > div > .searchBox1 > div > ul > li > img{
+  margin-top: 10px;
+  width: 21px;
+  height: 21px;
+}
+div.stamp > div > .searchBox1 > div > ul > li > span{
+  padding-left: 10px;
+}
+
+
+div.stamp > div > .textBox{
+  padding-top: 70px;
+  font-size: 25px;
+  
+}
+div.stamp > div > .textBox> h2{
+  text-decoration:underline ;
+}
+div.stamp > div > .textBox> p{
+  padding-top: 40px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 35px;
+  color: #414141;
+  letter-spacing: -1px;
+}

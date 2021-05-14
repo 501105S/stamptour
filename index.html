@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>스탬프투어</title>
+</head>
+
+
+
+<body>
+    <!-- 공통 헤더인데 여행후기에서 헤더 클레스 네임이 headerWrap2로 변경 되야함 -->
+    <div class='headerWrap'>
+        <header>
+            <h1>
+                <a href='./index.html'>
+                    <h2>STAMP</h2>
+                    <p>TOUR</p>
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href='#'>스탬프투어</a>
+                    </li>
+                    <li>
+                        <a href='stamp.html'>스탬프현황</a>
+                    </li>
+                    <li>
+                        <a href='./review.html'>여행후기</a>
+                    </li>
+                    <li>
+                        <a href='#'>이벤트(선물)</a>
+                    </li>
+                    <li>
+                        <a href='#'>상점</a>
+                    </li>
+                    <li>
+                        <a href='./news.html'>NEWS</a>
+                    </li>
+                </ul>
+                <div>
+                    <button>LOGIN</button>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <article class="onePage">
+        <div>
+            <div class="box1">
+                <div class='stamping'>
+                    <h2>{stamping}</h2>
+                    <p>STAMPING</p>
+                </div>
+                <div class='iconBox'>
+                    <div>
+                        <img src='./imgs/location.png' alt='스탬프 위치 아이콘' />
+                        <p>스탬프 장소</p>
+                        <h3>{stampArea}</h3>
+                    </div>
+
+                    <div>
+                        <img src='./imgs/reviwe.png' alt='스탬프 위치 아이콘' />
+                        <p> 여행후기</p>
+                        <h3>{reviewCount}</h3>
+                    </div>
+
+                    <div>
+                        <img src='./imgs/stori.png' alt='스탬프 위치 아이콘' />
+                        <p>등록 상점</p>
+                        <h3> {store}</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="box2">
+                <div class="phone">
+                    <div>
+                        <div class='textBox'>
+                            <div class='areas'>
+                                <p class="name"># {name}</p>
+                                <p class="tag"># {area} 에서</p>
+                            </div>
+
+                            <div>
+                                <p> "{username}"님이 스탬프를 획득했습니다. </p>
+                                <img src="./imgs/stamp.png" alt='스탬프 아이콘'></img>
+                            </div>
+
+                            <p>stampTime</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article class="toPage">
+        <div>
+            <div class="textBox">
+                <h2>스탬프투어란?</h2>
+                <p>전국 곳곳 여행 즐기며 선물까지 받는 모바일 앱</p>
+                <p>지금 바로 스탬프 모아서 선물 받으러 가자!</p>
+                <a href='#'>자세히 보러가기</a>
+            </div>
+        </div>
+    </article>
+    <article class="threePage">
+        <div>
+            <div>
+                <img src='./imgs/threephone.png' alt='스마트폰 이미지' />
+            </div>
+            <div>
+                <h2># 스탬프존</h2>
+                <div>
+                    <p>전국에 숨겨진 관광명소를 여행해 보아요</p>
+                    <p>각 지역마다 정해진 스탬프 장소로 이동하여</p>
+                    <p>스탬프를 획득 할 수 있어요</p>
+                </div>
+
+                <a href='#'>스탬프존 보러가기</a>
+            </div>
+        </div>
+
+
+    </article>
+    <article class="fourPage">
+        <div>
+            <div>
+                <h2># 여행후기</h2>
+                <div>
+                    <p>다른 유저들과의 여행 일상을 공유하며,</p>
+                    <p>좋아요 및 댓글 기능을 통해 소통할 수 있어요</p>
+                    <a href='review.html'>여행후기 보러가기</a>
+                </div>
+
+
+            </div>
+            <div>
+                <img src='./imgs/fourphone.png' alt='스마트폰 이미지' />
+            </div>
+        </div>
+    </article>
+    <article class="fivePage">
+        <div>
+            <div>
+                <img src='./imgs/fivephone.png' alt='스마트폰 이미지' />
+            </div>
+            <div>
+                <h2># 상점등록</h2>
+                <div>
+                    <p>지역 소상공인을 위한 서비스!</p>
+                    <p>가게를 운영하고 계신가요?</p>
+                    <p>내 근처 고객들에게 가게를 알려보세요</p>
+                    <a href='#'>상점가이드 보러가기</a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <!-- 공통 푸터 -->
+    <div class="footerWrap">
+        <footer>
+            <div class="footerBox1">
+                <h3>
+                    댓츠잇 (주)
+                </h3>
+                <div>
+                    <p>대표 김범수 | 사업자등록번호 384-81-01361</p>
+                    <p>주소 [06621] 서울시 강남대로 373 WeWork 13층 117호 </p>
+                </div>
+                <p>&copy; THATZIT Co. Ltd. All rights reserved</p>
+            </div>
+
+            <span class='bar' />
+
+            <div class="footerBox2">
+                <div>
+                    <div class="info">
+                        <div>
+                            <h3>문의하기</h3>
+                            <h4>Contact</h4>
+                            <p>010-7638-0901</p>
+                        </div>
+                        <div>
+                            <div class='iconBox'>
+                                <a href='http://instagram.com/travel__editor' target='balck'>
+                                    <img src='./imgs/insta.png' alt='인스타 이미지' />
+                                </a>
+                                <a href='https://www.facebook.com/thatzit1012/' target='balck'>
+                                    <img src='./imgs/facebook.png' alt='페이스북 이미지' />
+                                </a>
+                            </div>
+                            <div>
+                                <h4>E-mail</h4>
+                                <p>thatzit1012@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
